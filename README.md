@@ -1,3 +1,12 @@
+If changes made to schema run npx prisma migragte dev 
+
+in order to run seed must create a new tsconfig file for the runtime that will run our seed script, we do this my creating a copy of our ts file, ensuring our paths are defined, and changing the 
+
+For seed, after configuring ts-node and update package.json npx prisma db seed 
+
+to check db run npx prisma studio 
+
+-------------
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -24,7 +33,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js, take a look at the followåing resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
